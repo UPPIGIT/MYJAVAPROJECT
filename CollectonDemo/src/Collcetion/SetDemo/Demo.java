@@ -33,21 +33,7 @@ public class Demo {
 		this.name = name;
 	}
 	
-	@Override
-	public int hashCode() {
-		// TODO Auto-generated method stub
-		
-		return getNo();
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		// TODO Auto-generated method stub
-		System.out.println("My string class");
-		Demo demo=(Demo)obj;
-		
-		return demo.no.equals(getNo());
-	}	
+	
 	@Override
 	public String toString() {
 		return "Demo [no=" + no + ", name=" + name + "]";
@@ -88,6 +74,19 @@ public class Demo {
 		System.out.println(d5.hashCode());
 		System.out.println(d6.hashCode());
 		System.out.println(d7.hashCode());
+		
+		System.out.println("==============================================");
+	
 	}
 
 }
+
+/*
+[Demo [no=4444, name=bbb], Demo [no=3333, name=aaa], Demo [no=1111, name=xyz], Demo [no=3333, name=aaa], Demo [no=2222, name=pqr], Demo [no=1111, name=abc]]
+1252585652
+2036368507
+1785210046
+1552787810
+1361960727
+2036368507
+739498517*/
