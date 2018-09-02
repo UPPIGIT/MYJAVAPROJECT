@@ -39,13 +39,13 @@ public class NavigableSetDemo {
 	
 	System.out.println("descending set");
 	
-	Set<FligthTimings> desset=timingsTree.descendingSet();
+	Set<FligthTimings> desset=timingsTree.descendingSet();//	Returns reverse order view of this set.
 	
 	System.out.println(desset);
 	
 	System.out.println("descending Iteratot");
 	
-	Iterator<FligthTimings> deitr=timingsTree.descendingIterator();
+	Iterator<FligthTimings> deitr=timingsTree.descendingIterator();//	Returns an iterator over the elements of this set in descending order.
 	
 	while (deitr.hasNext()) {
 		FligthTimings fligthTimings = (FligthTimings) deitr.next();
