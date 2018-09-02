@@ -38,7 +38,7 @@ public class StudentComparatot implements Comparator {
 		smarks.add(s3);
 		smarks.add(s4);
 		smarks.add(s4);
-		smarks.add(s5);
+		smarks.add(s5); 
 		
 		System.out.println(smarks);
 	}
