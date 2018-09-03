@@ -16,6 +16,7 @@ public class Cars implements Comparable {
 	@Override
 	public int compareTo(Object o) {
 		Cars cars=(Cars)o;
+		//System.out.println("Cars compareTo() method");
 		
 		Float price1=cars.price;
 		Float price2=price;

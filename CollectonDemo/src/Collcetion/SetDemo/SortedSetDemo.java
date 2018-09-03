@@ -28,6 +28,7 @@ public class SortedSetDemo {
 		}
 		
 		System.out.println("==========================");
+		System.out.println("first and last elements");
 		System.out.println("less price car :"+cars.first());
 		System.out.println("High price Car  :"+cars.last());
 		

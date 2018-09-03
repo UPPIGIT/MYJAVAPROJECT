@@ -27,6 +27,7 @@ public class FligthTimings implements Comparator<FligthTimings> {
 	@Override
 	public int compare(FligthTimings o1, FligthTimings o2) {
 		// TODO Auto-generated method stub
+		//System.out.println("Flights compare() method");
 		return o1.time.compareTo(o2.time);
 	}
 
