@@ -118,8 +118,7 @@ public class MyStudent {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+			
 		MyStudent s1= new MyStudent("upender", 101);
 		MyStudent s2= new MyStudent("upender", 101);
 		MyStudent s3= new MyStudent("potti", 102);
