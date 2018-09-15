@@ -46,10 +46,12 @@ public class MyThread extends Thread{
 			{
 
 				Iterator<String> itr=al.iterator();
+				
+				//al.add("ZZZZ");java.util.ConcurrentModificationException--  after iterator creation we can not add objects to list
 			
 			while (itr.hasNext()) {
 				String string = (String) itr.next();
-				//al.add("abc");java.util.ConcurrentModificationException
+				//al.add("abc");java.util.ConcurrentModificationException--while iterating list we acn not add object to list
 				
 				al.set(2, "XXX");
 				
