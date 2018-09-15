@@ -39,7 +39,8 @@ static	CopyOnWriteArraySet<Integer> hs= new CopyOnWriteArraySet<>();
 		}
 		
 	
-		
+		hs.add(null);
+		hs.add(null);
 		Iterator<Integer> itr= hs.iterator();
 		
 		

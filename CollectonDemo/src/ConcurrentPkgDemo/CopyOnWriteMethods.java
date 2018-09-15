@@ -14,7 +14,10 @@ public class CopyOnWriteMethods {
 			
 		}
 		
+		cowal.add(null);
+		cowal.add(null);
 		System.out.println(cowal);
+		
 		
 		System.out.println(cowal.addIfAbsent(222));
 		System.out.println(cowal.addIfAbsent(103));
